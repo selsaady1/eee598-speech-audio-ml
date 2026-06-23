@@ -7,7 +7,7 @@
 ### 🌐 Live project page → **https://selsaady1.github.io/eee598-speech-audio-ml/**
 
 ## Overview
-A keyword spotting (KWS) system that recognizes the spoken words 'yes', 'no', 'stop', and 'go' plus a silence/unknown class, built entirely with classical signal processing instead of deep learning. The goal was to show that hand-crafted time- and frequency-domain features paired with traditional classifiers can hit competitive accuracy while staying small and fast enough for embedded or System-on-Chip deployment. Completed for ASU's EEE 598 Speech and Audio Processing course with co-author Yousef El Sheikha.
+A keyword spotting (KWS) system that recognizes the spoken words 'yes', 'no', 'stop', and 'go' plus a silence/unknown class, built entirely with classical signal processing instead of deep learning. The goal was to show that hand-crafted time- and frequency-domain features paired with traditional classifiers can hit competitive accuracy while staying small and fast enough for embedded or System-on-Chip deployment. Completed for ASU's EEE 598 Speech and Audio Processing course with a project partner.
 
 **Highlight:** 84.67% test accuracy
 
