@@ -4,10 +4,14 @@
 
 ![MATLAB](https://img.shields.io/badge/MATLAB-0a7?style=flat-square) ![Python](https://img.shields.io/badge/Python-0a7?style=flat-square) ![librosa](https://img.shields.io/badge/librosa-0a7?style=flat-square) ![scikit-learn](https://img.shields.io/badge/scikit--learn-0a7?style=flat-square) ![NumPy](https://img.shields.io/badge/NumPy-0a7?style=flat-square) ![pandas](https://img.shields.io/badge/pandas-0a7?style=flat-square) ![SciPy](https://img.shields.io/badge/SciPy-0a7?style=flat-square) ![matplotlib](https://img.shields.io/badge/matplotlib-0a7?style=flat-square) ![seaborn](https://img.shields.io/badge/seaborn-0a7?style=flat-square) ![Google Speech Commands v2 dataset](https://img.shields.io/badge/Google_Speech_Commands_v2_dataset-0a7?style=flat-square) 
 
+![Speech &amp; Audio ML — Keyword Spotting](images/fig1.png)
+
 ### 🌐 Live project page → **https://selsaady1.github.io/eee598-speech-audio-ml/**
 
 ## Overview
 A keyword spotting (KWS) system that recognizes the spoken words 'yes', 'no', 'stop', and 'go' plus a silence/unknown class, built entirely with classical signal processing instead of deep learning. The goal was to show that hand-crafted time- and frequency-domain features paired with traditional classifiers can hit competitive accuracy while staying small and fast enough for embedded or System-on-Chip deployment. Completed for ASU's EEE 598 Speech and Audio Processing course with a project partner.
+
+**Highlight:** 84.67% test accuracy
 
 **Highlight:** 84.67% test accuracy
 
@@ -37,9 +41,16 @@ Audio from the Google Speech Commands v2 dataset was preprocessed (16 kHz resamp
 - SVM
 - k-NN
 
+## Gallery
+![figure](images/fig2.png)
+![figure](images/fig3.png)
+![figure](images/fig4.png)
+![figure](images/fig5.png)
+
 ## Repository Structure
 ```
 .gitignore
+.nojekyll
 LICENSE
 README.md
 docs/EEE 598 - Final Project Report-2.docx.pdf
@@ -47,7 +58,14 @@ docs/EEE598_Final_Project_Proposal.pdf
 docs/FinalProject.docx
 docs/Kws Project Plan (1).pdf
 docs/Lightweight Keyword Spotting Using Energy and MFCC Features for Embedded Deployment (1).pdf
+images/fig1.png
+images/fig2.png
+images/fig3.png
+images/fig4.png
+images/fig5.png
+images/fig6.png
 images/preview.png
+index.html
 src/Autocorr_Demo.m
 src/EEE598_Final_Project.m
 src/Filtering_Demo.m
